@@ -1,11 +1,20 @@
 # Demo: Git Workflow
 
-## Demo Instructions
+## 1. Clone your repository
+ 
+ - Hitting the "Code" link on the main page of your repo
+ - In your terminal, change to your 102 project folder
+ - Then clone the repo like this:
+   `git clone URL`
+   
+## 2. Edit your files
+  
+  - Open your VS Code from the terminal
+  - `code .`
+  - Make all the changes
+  
+## A.C.P.
 
-Follow along with the presenter notes in the slides, to have students work through their first ACP cycles.
-
-Then, demo the process again, on your own machine.
-
-Show the full cycle to update an existing file.
-
-Show the full cycle to add a new file. Include a markdown link back to the original file.
+  - `git add .`
+  - `git commit -m "your message here"`
+  - `git push origin main`
